@@ -1,0 +1,17 @@
+{
+  "name": "atom-js2coffee",
+  "main": "./lib/js2coffee",
+  "version": "0.0.1",
+  "description": "A js2coffee plugin for Atom editor",
+  "activationEvents": [
+    "js2coffee:convert"
+  ],
+  "repository": "https://github.com/searls/atom-js2coffee",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "js2coffee": "~0.2.7"
+  }
+}
