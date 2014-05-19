@@ -1,7 +1,7 @@
 {
   "name": "atom-js2coffee",
   "main": "./lib/js2coffee",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A js2coffee plugin for Atom editor",
   "activationEvents": [
     "js2coffee:convert"
