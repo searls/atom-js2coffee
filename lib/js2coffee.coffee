@@ -1,4 +1,5 @@
-js2coffee = require("js2coffee")
+{allowUnsafeEval} = require('loophole')
+js2coffee = allowUnsafeEval -> require('js2coffee')
 
 module.exports =
   js2coffeeView: null
